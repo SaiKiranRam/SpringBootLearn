@@ -1,0 +1,51 @@
+09-03-2021 13:48:08.830  INFO Dialga --- [n(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+09-03-2021 13:48:08.852  INFO Dialga --- [n(12)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+09-03-2021 13:48:08.853  INFO Dialga --- [n(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+09-03-2021 13:48:08.855  INFO Dialga --- [n(12)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+09-03-2021 13:48:08.861  INFO Dialga --- [n(12)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+09-03-2021 15:23:59.447  INFO Dialga --- [           main] e.u.l.JavaGuides1Application             : Starting the application.................
+09-03-2021 15:23:59.829  INFO Dialga --- [           main] e.u.l.JavaGuides1Application             : Starting JavaGuides1Application using Java 15.0.1 on Dialga with PID 15180 (C:\STS_Workspace\JavaGuides-1\target\classes started by Saikiran in C:\STS_Workspace\JavaGuides-1)
+09-03-2021 15:23:59.832  INFO Dialga --- [           main] e.u.l.JavaGuides1Application             : No active profile set, falling back to default profiles: default
+09-03-2021 15:24:00.350  INFO Dialga --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-03-2021 15:24:00.404  INFO Dialga --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+09-03-2021 15:24:00.821  INFO Dialga --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+09-03-2021 15:24:00.830  INFO Dialga --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+09-03-2021 15:24:00.831  INFO Dialga --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+09-03-2021 15:24:00.831  INFO Dialga --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.43]
+09-03-2021 15:24:00.933  INFO Dialga --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+09-03-2021 15:24:00.934  INFO Dialga --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+09-03-2021 15:24:01.064  INFO Dialga --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+09-03-2021 15:24:01.114  INFO Dialga --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.28.Final
+09-03-2021 15:24:01.247  INFO Dialga --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09-03-2021 15:24:01.336  INFO Dialga --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+09-03-2021 15:24:01.659  INFO Dialga --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+09-03-2021 15:24:01.677  INFO Dialga --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09-03-2021 15:24:02.314  INFO Dialga --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-03-2021 15:24:02.323  INFO Dialga --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-03-2021 15:24:02.592  WARN Dialga --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-03-2021 15:24:02.682  INFO Dialga --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+09-03-2021 15:24:02.859  INFO Dialga --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+09-03-2021 15:24:02.882  INFO Dialga --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+09-03-2021 15:24:02.889  INFO Dialga --- [           main] e.u.l.JavaGuides1Application             : Started JavaGuides1Application in 3.376 seconds (JVM running for 4.246)
+09-03-2021 15:24:11.781  INFO Dialga --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-03-2021 15:24:11.781  INFO Dialga --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+09-03-2021 15:24:11.782  INFO Dialga --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+09-03-2021 15:24:11.801  INFO Dialga --- [nio-8080-exec-1] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting for getAllProgrammers() in ProgrammerService
+09-03-2021 15:24:11.802  INFO Dialga --- [nio-8080-exec-1] e.u.l.s.ProgrammerService                : [class edu.user.learning.service.ProgrammerService] -- Attempting to get all programmers
+09-03-2021 15:24:12.134  INFO Dialga --- [nio-8080-exec-2] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting to get programmer of ID: 7
+09-03-2021 15:25:46.713  INFO Dialga --- [nio-8080-exec-3] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting for getAllProgrammers() in ProgrammerService
+09-03-2021 15:25:46.714  INFO Dialga --- [nio-8080-exec-3] e.u.l.s.ProgrammerService                : [class edu.user.learning.service.ProgrammerService] -- Attempting to get all programmers
+09-03-2021 15:25:46.811  INFO Dialga --- [nio-8080-exec-7] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting to get programmer of ID: 7
+09-03-2021 15:26:22.587  INFO Dialga --- [nio-8080-exec-6] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting for getAllProgrammers() in ProgrammerService
+09-03-2021 15:26:22.587  INFO Dialga --- [nio-8080-exec-6] e.u.l.s.ProgrammerService                : [class edu.user.learning.service.ProgrammerService] -- Attempting to get all programmers
+09-03-2021 15:26:22.684  INFO Dialga --- [nio-8080-exec-8] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting to get programmer of ID: 1
+09-03-2021 15:26:22.722  INFO Dialga --- [nio-8080-exec-9] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting to get programmer of ID: 2
+09-03-2021 15:26:22.848  INFO Dialga --- [io-8080-exec-10] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Updating a programmer of Id: 2 with details:
+Programmer [id=2, firstName=Vijay_Demo, lastName=Anand_Demo, technologies=[edu.user.learning.entity.Technology@112776d9, edu.user.learning.entity.Technology@31219966, edu.user.learning.entity.Technology@304e6095]]
+09-03-2021 15:26:22.849  INFO Dialga --- [io-8080-exec-10] e.u.l.s.ProgrammerService                : [class edu.user.learning.service.ProgrammerService] -- Updating a programmer: Programmer [id=2, firstName=Vijay_Demo, lastName=Anand_Demo, technologies=[edu.user.learning.entity.Technology@112776d9, edu.user.learning.entity.Technology@31219966, edu.user.learning.entity.Technology@304e6095]]
+09-03-2021 15:26:22.962  INFO Dialga --- [nio-8080-exec-1] e.u.l.C.ProgrammerController             : [class edu.user.learning.Controller.ProgrammerController] -- Attempting to delete a programmer of ID: 18
+09-03-2021 15:27:45.206  INFO Dialga --- [on(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+09-03-2021 15:27:45.436  INFO Dialga --- [on(7)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+09-03-2021 15:27:45.437  INFO Dialga --- [on(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+09-03-2021 15:27:45.440  INFO Dialga --- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+09-03-2021 15:27:45.449  INFO Dialga --- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
